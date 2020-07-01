@@ -609,7 +609,7 @@ namespace PgpCore
             if (outputStream == null)
                 throw new ArgumentException("OutputStream");
             if (privateKeyStream == null)
-                throw new ArgumentException("PrivateKeyFilePath");
+                throw new ArgumentException("PrivateKeyStream");
             if (passPhrase == null)
                 passPhrase = String.Empty;
 
@@ -801,9 +801,9 @@ namespace PgpCore
             if (outputStream == null)
                 throw new ArgumentException("OutputStream");
             if (publicKeyStream == null)
-                throw new ArgumentException("PublicKeyFileStream");
+                throw new ArgumentException("PublicKeyStream");
             if (privateKeyStream == null)
-                throw new ArgumentException("PrivateKeyFileStream");
+                throw new ArgumentException("PrivateKeyStream");
             if (passPhrase == null)
                 passPhrase = String.Empty;
 
